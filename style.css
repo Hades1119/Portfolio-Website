@@ -1,0 +1,230 @@
+/* Code to import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap');
+
+
+
+/* Code to remove all default margin from the elements and the default font */
+*, h1 {
+  margin: 0;
+  font-family: 'Sofia Sans', sans-serif;;
+}
+
+/* Edits to the body background color and adding some spacing on the top so that the elements would not go under the header */
+body {
+  background-color: rgb(243, 243, 243);
+  margin-top: 200px;
+}
+
+/* Code to fix the header to the top and stylize it */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  background-color: rgb(50, 84, 134);
+  margin-bottom: 50px;
+  border-bottom: 5px rgb(24, 135, 172) solid;
+}
+
+/* Stylizing the H1 tag */
+h1 {
+  font-family: 'Pacifico';
+  font-weight: 100;
+  font-size: 42px;
+  padding-top: 5px;
+  letter-spacing: 3px;
+  padding-bottom: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* Stylizing the h2 tags on the page */
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 55px;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Stylizing the h3 tags on the page */
+h3 {
+  font-size: 17px;
+  color: white;
+}
+
+/* Aligning and editing font size of the lists */
+ul, ol {
+  text-align: justify;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Creating the grid for the intro section */
+.parallel-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Creating the footer */
+footer {
+  background-color: rgb(50, 84, 134);
+  border-top: 5px rgb(24, 135, 172) solid;
+  height: 50px;
+}
+
+/* Stylizing the p element directly inside the footer */
+footer p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
+/* Scaling the image down to fit into its container */
+img {
+  object-fit: scale-down;
+  width: 650px;
+  height: 500px;
+  padding-left: 205px;
+}
+
+/* Aligning the intro title/ID */
+#intro {
+  text-align: center;
+  padding-right: 300px;
+}
+
+/* Class to add padding to certain p elements */
+.paragraph-padding {
+  padding-bottom: 9px;
+  padding-right: 250px;
+}
+
+/* Stylizing p elements */
+p {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+/* Adding padding to p elements within the main container */
+main p {
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+/* Adding margin to all article containers */
+article {
+  margin-bottom: 75px;
+}
+
+/* Stylizing the hr elements */
+hr {
+  width: 75%;
+  margin: auto;
+  border: 3px rgb(24, 135, 172) dotted;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+/* Centering the embedded map */
+iframe {
+  margin: auto;
+  display: block;
+}
+
+/* Adding margin to the ordered list */
+ol {
+  margin-bottom: 50px;
+}
+
+/* Stylizing and centering the tag line class */
+.tag-line {
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+  padding-right: 305px;
+}
+
+/* Changing the width on the second grid container */
+.grid-item-2 {
+  width: 95%;
+}
+
+/* Centering the text in the interests section */
+.interests-grid {
+  text-align: center;
+}
+
+/* Removing padding class */
+.no-padding {
+  padding-right: 0;
+}
+
+/* Stylizing the interests header */
+.interests-header {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+/* centering and editing width of interests p element */
+.interests-p {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+/* Centering elements inside the contact section */
+.contact-grid {
+  text-align: center;
+}
+
+/* Stylizing the header of the contact section */
+.contact-header {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 13px;
+  margin-bottom: 20px;
+}
+
+/* Centering and editing width of contact p element */
+.contact-p {
+  margin: auto;
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+/* Stylizing real links */
+.links {
+  color: rgb(50, 84, 134);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+/* Editing link colored when visited */
+.links:visited {
+  color: purple;
+}
+
+/* Editing link opacity when hovering over it */
+.links:hover {
+  opacity: 0.8;
+}
+
+/* Editing link color when actively clicked */
+.links:active {
+  color: rgb(24, 135, 172);
+}
+
+/* Removing underline decoration off top header link */
+.header-link {
+  text-decoration: none;
+}
+
